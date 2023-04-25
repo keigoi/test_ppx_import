@@ -1,0 +1,4 @@
+(executable
+ (public_name test_ppx_import)
+ (name main)
+ (libraries test_ppx_import))

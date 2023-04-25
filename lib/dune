@@ -1,0 +1,6 @@
+(library
+ (name test_ppx_import)
+ (libraries ppxlib)
+ (preprocess
+  (staged_pps ppx_import))
+ )
